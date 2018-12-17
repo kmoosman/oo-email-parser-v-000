@@ -9,7 +9,6 @@ class EmailParser
   
   def self.parse(emails) 
     separated_emails = emails.split(" ", ",")
-    binding.pry
     # artist_name = data[0]
     # song_name = data[1].gsub(".mp3", "")
     # song = self.new
