@@ -3,10 +3,11 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
+
 class EmailParser
   
   def self.parse(emails) 
-    data = emails.split(" ")
+    separated_emails = emails.split(" ", ",")
     artist_name = data[0]
     song_name = data[1].gsub(".mp3", "")
     song = self.new
