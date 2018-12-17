@@ -8,7 +8,7 @@ require 'pry'
 class EmailParser
   
   def self.parse 
-    separated_emails = emails.split(" ", ",")
+    separated_emails = self.split(" ", ",")
     # artist_name = data[0]
     # song_name = data[1].gsub(".mp3", "")
     # song = self.new
