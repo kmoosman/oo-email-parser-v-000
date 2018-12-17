@@ -5,7 +5,7 @@
 require 'pry'
 
 
-class EmailParser
+class EmailParser(emails)
   
   def self.parse 
     separated_emails = self.split(" ", ",")
